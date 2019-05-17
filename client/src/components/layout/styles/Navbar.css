@@ -1,0 +1,14 @@
+.nav {
+  font-family: 'Indie Flower', cursive;
+  background: rgba(0, 0, 0, 1);
+  padding: 18px;
+}
+
+.nav-item {
+  margin-top: 8x;
+  color: white;
+  font-size: 24px;
+  margin-left: 22px;
+  padding: 6px;
+  text-align: center;
+}
