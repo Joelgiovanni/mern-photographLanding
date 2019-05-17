@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
 
 class Navbar extends Component {
@@ -6,16 +7,24 @@ class Navbar extends Component {
     return (
       <ul className='nav justify-content-end'>
         <li className='nav-item'>
-          <p>Home</p>
+          <Link to='/' className='link'>
+            Home
+          </Link>
         </li>
         <li className='nav-item'>
-          <p>Portfolio</p>
+          <Link to='/portfolio' className='link'>
+            Portfolio
+          </Link>
         </li>
         <li className='nav-item'>
-          <p>Inquiries</p>
+          <Link to='/inquiries' className='link'>
+            Inquiries
+          </Link>
         </li>
         <li className='nav-item'>
-          <p>Contact</p>
+          <Link to='/contact' className='link'>
+            Contact
+          </Link>
         </li>
       </ul>
     );

@@ -12,3 +12,13 @@
   padding: 6px;
   text-align: center;
 }
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
