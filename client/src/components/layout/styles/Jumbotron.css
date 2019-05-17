@@ -1,13 +1,16 @@
-.bg-image {
+.background {
+  width: 100%;
   filter: grayscale(50%);
+  opacity: 0.8;
+  height: auto;
 }
-
-.carousel-content {
+.centered {
   position: absolute;
   top: 60%;
-  left: 45%;
-  z-index: 20;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  font-size: 25px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: wheat;
+  letter-spacing: 6px;
+  font-weight: 400;
 }

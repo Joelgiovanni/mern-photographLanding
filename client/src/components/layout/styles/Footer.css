@@ -1,0 +1,14 @@
+.container-fluid {
+  text-align: center;
+  padding: 14px;
+  opacity: 40%;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  color: wheat;
+  font-weight: 100;
+}
