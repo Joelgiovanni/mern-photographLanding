@@ -1,10 +1,13 @@
 .container-fluid {
-  text-align: center;
   padding: 14px;
   opacity: 40%;
   font-size: 20px;
   font-weight: 100;
   font-style: italic;
+  text-align: center;
+  position: fixed; /* Sticky footer */
+  bottom: 0; /* Sticky footer */
+  background-color: #fff;
 }
 
 .copyright {

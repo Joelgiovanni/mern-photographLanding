@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './styles/Jumbotron.css';
-
+import '../styles/Jumbotron.css';
 class Jumbotron extends Component {
   render() {
     return (
