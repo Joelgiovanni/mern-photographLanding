@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Portfolio from './components/pages/Portfolio';
-import Inquiries from './components/pages/Inquiries';
+import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Navbar from './components/layout/Navbar';
 import Jumbotron from './components/layout/Jumbotron';
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Jumbotron} />
         <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/inquiries' component={Inquiries} />
+        <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
       <Footer />
