@@ -1,0 +1,34 @@
+.centered-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: black;
+  letter-spacing: 6px;
+  font-weight: 10;
+  border: 0.5px solid black;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: italic;
+}
+
+.picture {
+  margin: 10px;
+  height: 80vh;
+  margin-bottom: 140px;
+  border-top-left-radius: 25px;
+}
+
+.bg-1 {
+  background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/glacier-point-yosemite-portrait-kyle-hanson.jpg');
+}
+
+.bg-2 {
+  background-image: url('https://2.img-dpreview.com/files/p/TS560x560~forums/61221233/fbe0e786bd2b404f9ddb17093184e35f');
+}
+
+.bg-3 {
+  background-image: url('https://i.pinimg.com/originals/4e/46/7b/4e467b4bc44ce99965871413edbbd91f.jpg');
+  background-size: cover;
+}

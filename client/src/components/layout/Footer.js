@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div className='container-fluid'>
+      <div className='container-fluid container-fluid-footer'>
         <div className='footer'>
           <div className='footer-content'>
             <span className='copyright'> &#169; </span>
