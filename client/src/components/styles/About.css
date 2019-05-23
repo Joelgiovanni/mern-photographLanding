@@ -22,3 +22,18 @@
 .smaller-header {
   text-align: center;
 }
+
+.header-text {
+  font-weight: 100;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 28px;
+  color: black;
+  font-weight: 100;
+}
+
+.icon:hover {
+  color: blue;
+}

@@ -6,7 +6,35 @@ class About extends Component {
     return (
       <div>
         <div className='about-header'>
-          <h4 className='header-text'>About Us</h4>
+          <ul className='nav justify-content-center'>
+            <a
+              href='https://twitter.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              {' '}
+              <i className='fab fa-twitter icon' />
+            </a>
+            <a
+              href='https://instagram.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              {' '}
+              <i className='fab fa-instagram icon' />
+            </a>
+            <a
+              href='https://facebook.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              {' '}
+              <i className='fab fa-facebook icon' />
+            </a>
+          </ul>
+          <h4 className='header-text'>
+            <span className='text-danger'>Follow us. </span>Stay in the loop
+          </h4>
         </div>
         <div className='banner'>
           <img
@@ -14,35 +42,36 @@ class About extends Component {
             alt='Mountains'
             className='about-background'
           />
-
           <h1 className='centered'>
             <b>Colorado Photography </b>
             <i className='fas fa-camera-retro' />
           </h1>
         </div>
-        <div class='container mt-5'>
-          <div class='row'>
-            <div class='col about-info'>
+        <div className='container mt-5'>
+          <div className='row'>
+            <div className='col about-info'>
               <h3 className='smaller-header'>10 years experience</h3>
               <p>
                 We hold almost 10 years experience in the industry. Time and
                 time again we have proved that clients always come first. No
                 project will ever be too small or too large for our team.
                 Testimonials can be provided upon request. However, we believe
-                that our work will speak for itself
+                that our work will speak for itself. Collaboratively build
+                backward-compatible relationships whereas tactical paradigms.
               </p>
             </div>
-            <div class='col about-info'>
+            <div className='col about-info'>
               <h3>Local</h3>
               <p>
                 We believe that being local is important. As a company that was
                 founded and developed in Colorado we belive in the importance of
                 keeping things local. We value the community, nature and beauty
                 of Colorado. A team that prioritises its values will never go
-                unnoticed.
+                unnoticed.Progressively network performance based services for
+                functionalized testing procedures.
               </p>
             </div>
-            <div class='col about-info'>
+            <div className='col about-info'>
               <h3> Values </h3>
               <p>
                 Many large companys that you seek will filter out smaller

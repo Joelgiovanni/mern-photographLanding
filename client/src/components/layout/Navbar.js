@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <ul className='nav justify-content-end'>
+      <ul className='nav custom-nav justify-content-end'>
         <li className='nav-item'>
           <Link to='/' className='link'>
             Home
